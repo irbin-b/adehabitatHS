@@ -476,11 +476,11 @@ s.madifa <- function(x, xax=1, yax=2, cgrid = 1, clab=1, ...)
     po <- rbind(as.matrix(pol),yy)
 
     ## Draws the plot
-    s.arrow(co, xax=xax, yax=yax, xlim=c(-1,1), ylim=c(-1,1), clab=clab)
+    s.arrow(co, xax=xax, yax=yax, xlim=c(-1,1), ylim=c(-1,1), clabel=clab)
     polygon(yy)
     polygon(po, col="white")
-    s.arrow(co, xax=xax, yax=yax, xlim=c(-1,1), ylim=c(-1,1), add.p=TRUE,
-            clab=clab, ...)
+    s.arrow(co, xax=xax, yax=yax, xlim=c(-1,1), ylim=c(-1,1), add.plot=TRUE,
+            clabel=clab, ...)
 
     ## scale box
     xaxp <- par("xaxp")
