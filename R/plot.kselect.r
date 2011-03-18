@@ -57,7 +57,7 @@
     ## 5. coordinates of the uncentered available points on the
     ##    axes of the K-select
     s.chull(as.data.frame(ls), x$initfac,
-            clab=1.5, sub="Available Resource units", csub=2,
+            clabel = 1.5, sub="Available Resource units", csub=2,
             optchull=1, cpoint=1)
 
     ## 6. coordinates of the recentred marginality vectors on the axes

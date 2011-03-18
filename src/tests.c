@@ -1867,7 +1867,7 @@ void rankma(double *used, double *avail, double *rankmap, double *rankmam,
     /* Declarations of variables */
     int i, j, k, nh, na, nr, r;
     double **u, **a, **rmp, **rmm, **rmv, **rmnb;
-    double *dlrtmp, *vecalea, pp, val, moy;
+    double *dlrtmp, *vecalea, val, moy;
     double *aleamu, **tabani;
     
     /* Memory Allocation */
@@ -1936,7 +1936,6 @@ void rankma(double *used, double *avail, double *rankmap, double *rankmam,
 	    
 	    /* Computes P */
 	    val = rmv[j][k];
-	    pp = 0;
 	    for (r = 1; r <= nr; r++) {
 		if (val < vecalea[r])
 		    rmm[j][k]++;
@@ -2276,14 +2275,13 @@ Randomization in the ENFA: test of the first eigenvalue of specialization
 void randenfa(double **Z, double *p, int *nrep, double *res)
 {
     /* Declaration of variables */
-    int i, j, k, nr, nv, np, ntot;
+    int i, j, k, nv, np, ntot;
     double *psim, *vp;
     
     /* Memory Allocation */
     np = Z[0][0];
     nv = Z[1][0];
     ntot = 0;
-    nr = *nrep;
     vecalloc(&psim, np);
     vecalloc(&vp, nv);
     
@@ -2482,7 +2480,7 @@ void engen2008r(double *avr, double *usr, int *nliga, int *nligu,
     /* declaration of variables */
     double **av, **us, **nsco, *varR, tmp, res, **var, mu1, mu2, **Akmo;
     double **inv1, **zer, *a, sigkk, *Wk, *tmp2, m, s, **nscob, **nscoav;
-    double *obs, **sammr, vartot, sig2, **rho, *Zi, *thetai, tmp3;
+    double *obs, **sammr, vartot, sig2, *Zi, *thetai, tmp3;
     double **mu;
     int nla, nlu, nc, *id, i, j, k, nid, nsim, e, r,l, *index;
     int *indexR, nsimra, b, *ni;

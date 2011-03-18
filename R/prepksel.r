@@ -48,5 +48,5 @@ prepksel <- function(sa, hr, locs)
         dv <- dv[!is.na(slot(dv,"data")[,1]),]
         rep(names(loct)[i], length(overlay(locs, dv)))
     }))
-    return(list(tab=df, weight=locdf, factor=fac))
+    return(list(tab=df, weight=locdf, factor=factor(fac)))
 }

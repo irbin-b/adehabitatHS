@@ -597,7 +597,7 @@ plot.madifa <- function(x, map, xax=1, yax=2, cont=FALSE,...)
     ## Correlation with the environmental variables
     s.arrow(x$cor, xax=xax,yax=yax,
             sub="Cor(habitat var., scores) available",
-            clab=1.25, csub=2, cgrid=2, xlim=c(-1,1), ylim=c(-1,1))
+            clabel=1.25, csub=2, cgrid=2, xlim=c(-1,1), ylim=c(-1,1))
     u <- par(mar=c(0.1,0.1,2,0.1))
 
     ## Again the maps
