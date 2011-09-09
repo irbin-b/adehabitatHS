@@ -1,7 +1,7 @@
 Package: adehabitatHS
-Version: 0.3.1
-Date: 2011/03/18
-Depends: R (>= 2.10.0), sp, methods, gpclib, ade4, adehabitatMA,
+Version: 0.3.2
+Date: 2011/09/09
+Depends: R (>= 2.10.0), sp, methods, rgeos, ade4, adehabitatMA,
         adehabitatHR
 Suggests: maptools, tkrplot, MASS
 Title: Analysis of habitat selection by animals
@@ -11,6 +11,6 @@ Description: A collection of tools for the analysis of habitat
         selection
 License: GPL (>= 2)
 URL: https://www.faunalia.it/animove/trac/
-Packaged: 2011-04-21 17:57:03 UTC; calenge
+Packaged: 2011-09-09 10:07:13 UTC; calenge
 Repository: CRAN
-Date/Publication: 2011-04-24 06:06:12
+Date/Publication: 2011-09-09 13:08:54
