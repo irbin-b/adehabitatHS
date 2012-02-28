@@ -1,4 +1,4 @@
-87a8331560116ad547f65414e5ddc25f *DESCRIPTION
+61840d145fa763213c5f16afb7f5cc71 *DESCRIPTION
 85b795897057a7d8beadf839cbfa75d9 *NAMESPACE
 dd05b3c114635a6f02b318340d71b695 *R/biv.plot.r
 f9b51efc1757840bbbf0a743b9628b8d *R/biv.test.r
@@ -47,7 +47,7 @@ c3d93716db14dd7a41142ddd352d169d *data/squirreloc.rda
 a2aaf6a84f3ea07c81f447a53f1c2469 *data/vanoise.rda
 928dfc19b52b0fdfe9b135e2e4358bd5 *inst/CITATION
 e2df16041d2642d68a7d237d6a86cdd1 *inst/doc/adehabitatHS.Rnw
-37412d2e591aedc6148c7de0a858c442 *inst/doc/adehabitatHS.pdf
+4c3f28e3e90eb751e7925ec3b3fef1fb *inst/doc/adehabitatHS.pdf
 deea1daac244857e8ff26a0e226b7cfa *inst/doc/exva.png
 09ca2121f40ea7a300e8cb70c6be367f *man/adehabitatHS-internal.Rd
 87ffb5ce9dec115259a1f7ead322a6b4 *man/bauges.Rd
@@ -78,4 +78,4 @@ ac041432576ba0ffff729540b98d2b05 *man/rand.kselect.Rd
 783e567c6c724da3dc82f84973921d77 *man/squirreloc.Rd
 b173e92a8d5633f3b12f2e2d368566e7 *man/vanoise.Rd
 246f1cc5c28586a5c690c9748965a56d *man/wi.Rd
-5c88c4ca012984a3932c553d198f7a93 *src/tests.c
+117d3b012f2ffa986ae106e5a949a9a7 *src/tests.c

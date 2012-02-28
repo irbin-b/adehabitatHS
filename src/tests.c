@@ -784,7 +784,7 @@ void DiagobgComp (int n0, double **w, double *d, int *rang)
 	  if (d[i] / d[1] < 0.00001) d[i] = 0.0;
 	  if (d[i] != 0.0) *rang = *rang + 1;
 	*/
-	if (d[i] > 0.0) *rang = *rang + 1;
+	if (d[i] > 0.00000000001) *rang = *rang + 1;
     }
     freevec(s);
 } /* DiagoCompbg */
@@ -1728,12 +1728,20 @@ void wml(double **used, double **avail, double *wmla, int na, int nh,
 	det1 = 1;
 	det2 = 1;
 	
-	for (i = 1; i <= rg1; i++) {
-	    det1 = det1 * vp1[i];
+	if (rg1 != (nh-1)) {
+	    det1 = 0;
+	} else {
+	    for (i = 1; i <= rg1; i++) {
+		det1 = det1 * vp1[i];
+	    }
 	}
 	
-	for (i = 1; i <= rg2; i++) {
-	    det2 = det2 * vp2[i];
+	if (rg2 != nh-1) {
+	    det2 = 0;
+	} else {
+	    for (i = 1; i <= rg2; i++) {
+		det2 = det2 * vp2[i];
+	    }
 	}
 	
 	wmla[k] = det1 / det2;
@@ -1831,7 +1839,7 @@ void aclambda(double *util, double *dispo, int *nani, int *nhab,
 	/* weighted mean lambda */
 	wml(ut, di, lilamb, na, nh,
 	    proj1, proj2, linb, k);
-	sumnb = 0;
+	sumnb = 0.0;
 	for (i = 1; i <= nh; i++)
 	    sumnb = sumnb + linb[i];
 	for (i = 1; i <= nh; i++)
