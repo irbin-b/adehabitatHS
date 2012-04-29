@@ -25,7 +25,6 @@
     on.exit(par(old.par))
     lay <- layout(matrix(c(2,4,1,3),2,2, byrow = TRUE), c(3,1),
                   c(1,3), TRUE)
-    layout.show(lay)
 
     ## preparation of the data
     x <- dfxy[, 1]
@@ -50,8 +49,8 @@
     ybr <- c(rev(yn[-1]), yp)
 
     ## Cuts the points into classes
-    xhist <- hist(x, plot = FALSE, br = xbr, freq = FALSE)
-    yhist <- hist(y, plot = FALSE, br = ybr, freq = FALSE)
+    xhist <- hist(x, plot = FALSE, br = xbr)
+    yhist <- hist(y, plot = FALSE, br = ybr)
 
     ## Limits of the graphs
     if (o.include) {

@@ -141,12 +141,7 @@ map <- puechabonsp$map
 pc <- mcp(locs[,"Name"])
 
 ## rasterize it
-hr <- do.call("data.frame", lapply(1:nrow(pc), function(i) {
-    overlay(map, pc[i,])
-}))
-names(hr) <- slot(pc, "data")$id
-coordinates(hr) <- coordinates(map)
-gridded(hr) <- TRUE
+hr <- hr.rast(pc, map)
 
 
 ## Compute the number of relocation in each pixel of the map
