@@ -6,7 +6,7 @@
 \description{
   \code{enfa} performs an Ecological Niche Factor Analysis.
   \code{hist.enfa} draws histograms of the row scores or of the initial
-  variables of the ENFA.\cr
+  variables of the ENFA.
 }
 \usage{
 enfa(dudi, pr, scannf = TRUE, nf = 1)
@@ -60,13 +60,13 @@ enfa(dudi, pr, scannf = TRUE, nf = 1)
   and the S-specialization (hereafter termed specialization).  The
   marginality represents the squared distance of the niche barycentre from
   the mean available habitat.  A large specialization corresponds to a
-  narrow niche relative to the habitat conditions available to the species.\cr
+  narrow niche relative to the habitat conditions available to the species.
 
   The ENFA first extracts an axis of marginality (vector from the average
   of available habitat conditions to the average used habitat conditions).
   Then the analysis extracts successives orthogonal axes (i.e. uncorrelated),
   which maximises the specialization of the species.  The calculations
-  used in the function are described in Hirzel et al. (2002).\cr
+  used in the function are described in Hirzel et al. (2002).
 
   The function \code{enfa} can be used on both quantitative variables and
   qualitative variables (though the interpretation of the results of the

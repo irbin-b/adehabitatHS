@@ -10,7 +10,8 @@
 \description{
   The MADIFA allows a factorial decomposition of the Mahalanobis
   distances.  This method is presented here in the framework of
-  niche-environment studies.\cr
+  niche-environment studies.
+  
   \code{predict.madifa} allows the computation of the Mahalanobis
   Distances based on a restricted number of factorial axes.\cr
   All other functions allow various graphical displays of the results of
@@ -115,7 +116,7 @@ s.madifa(x, xax = 1, yax = 2, cgrid = 1, clab = 1, \dots)
   point defined by the values of environmental variables in a pixel of a
   raster map) and the centroid of the niche (the distribution of used
   resource units) can be used to give a value of eccentricity to this
-  point.\cr
+  point.
   
   For a given distribution of available resource units, for which a
   measure of Mahalanobis distances is desired, the MADIFA (MAhalanobis
@@ -127,7 +128,7 @@ s.madifa(x, xax = 1, yax = 2, cgrid = 1, clab = 1, \dots)
   the MADIFA partitions the Mahalanobis distances into several axes of
   biological meaning (see examples).  \code{predict.madifa} allows to
   compute approximate Mahalanobis distances from the axes of the
-  MADIFA.\cr
+  MADIFA.
 
   \code{plot.madifa} returns a graphical summary of the analysis: it
   returns graphs of (i) the eigenvalues of the analysis (each eigenvalue
@@ -147,10 +148,10 @@ s.madifa(x, xax = 1, yax = 2, cgrid = 1, clab = 1, \dots)
   computed from the two axes displayed in this plot; the correlations
   between the original environmental variables and the factorial axes;
   (v) the map of the first factorial axis and (vi) the map of the second
-  factorial axis.\cr
+  factorial axis.
 
   \code{hist.madifa} returns a graph of the niche and the available
-  resource units on the factorial axes of the analysis.\cr
+  resource units on the factorial axes of the analysis.
 }
 \value{
   \code{madifa} returns a list of class \code{madifa} containing the
@@ -175,11 +176,11 @@ s.madifa(x, xax = 1, yax = 2, cgrid = 1, clab = 1, \dots)
 \references{
   Clark, J.D., Dunn, J.E. and Smith, K.G. (1993) A multivariate model of
   female black bear habitat use for a geographic information
-  system. \emph{Journal of Wildlife Management}, \bold{57}, 519--526.\cr
+  system. \emph{Journal of Wildlife Management}, \bold{57}, 519--526.
 
   Calenge, C., Darmon, G., Basille, M., Loison, A. and Jullien
   J.M. (2008) The factorial decomposition of the Mahalanobis distances
-  in habitat selection studies. \emph{Ecology}, \bold{89}, 555--566.\cr
+  in habitat selection studies. \emph{Ecology}, \bold{89}, 555--566.
 }
 \author{
   Clement Calenge \email{clement.calenge@oncfs.gouv.fr}

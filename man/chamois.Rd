@@ -12,9 +12,11 @@ data(chamois)
 }
 \details{
   The object \code{chamois} is a list containing the following
-  components:\cr
+  components:
+  
   \code{locs} is a data frame containing the x and y coordinates
-  of 198 chamois groups.\cr
+  of 198 chamois groups.
+  
   \code{map} is a map of class \code{kasc} describing the
   vegetation (Forest or Open areas), the distance from the ecotone
   Open/Forest and the slopes on the area.

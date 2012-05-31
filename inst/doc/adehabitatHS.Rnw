@@ -2035,7 +2035,7 @@ species. This may be a problem with OMI analysis.\\
 
 I already have met this problem, when I was working on the habitat
 selection of the mouflon in the Bauges mountains (Darmon et
-al., in prep.). In this mountainous area, the elevation strongly
+al., 2012). In this mountainous area, the elevation strongly
 structures all the environmental variables. The first axis of
 the OMI analysis was mainly determined by the elevation pattern, and
 no common direction for the marginality vectors was identified.\\
@@ -2089,8 +2089,8 @@ variables to allow the matrix inversion required by the analysis) and
 (ii) the environmental variables should be linearly independent (also
 to allow this inversion).\\
 
-Additional mathematical details can be found in Darmon et al. (in
-prep.). The canonical OMI analysis is implemented in the function
+Additional mathematical details can be found in Darmon et
+al. (2012). The canonical OMI analysis is implemented in the function
 \texttt{canomi}. We can carry out the analysis:
 
 <<>>=
@@ -2685,6 +2685,9 @@ selection using a wide variety of approaches.
   female black bear habitat use for a geographic information system.
   Journal of Wildlife Management, 57, 519-526
 \item Cleveland, W. 1993. Visualizing data. Hobart Press.
+\item Darmon, G., Calenge, C., Loison, A., Jullien, J.M., Maillard,
+  D. and Lopez, J.F. 2012. Spatial distribution and habitat selection
+  in coexisting species of mountain ungulates. Ecography, 35, 44-53.
 \item Doledec, S., Chessel, D. and Gimaret-Carpentier, C. 2000. Niche
   separation in community analysis: a new method. Ecology, 81,
   2914-2927.

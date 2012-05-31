@@ -23,7 +23,7 @@ mahasuhab(x, pts, type = c("distance", "probability"))
   (gathered on transects, or during the monitoring of the population,
   etc.).  If we assume that the probability of detecting an individual
   is independent from the habitat variables, then we can consider that
-  the habitat found at these sites reflects the habitat use by the animals.\cr
+  the habitat found at these sites reflects the habitat use by the animals.
   
   The Mahalanobis distances method has become more and more popular
   during the past few years to derive habitat suitability maps.  The
@@ -31,7 +31,7 @@ mahasuhab(x, pts, type = c("distance", "probability"))
   presence of a species in the multidimensionnal space defined by the
   habitat variables.  If this function can be assumed to
   be multivariate normal, then the mean vector of this distribution
-  corresponds to the optimum for the species.\cr
+  corresponds to the optimum for the species.
 
   The function \code{mahasuhab} first computes this mean vector as well
   as the variance-covariance matrix of the niche density function, based
@@ -59,13 +59,14 @@ mahasuhab(x, pts, type = c("distance", "probability"))
 }
 \author{ Clement Calenge \email{clement.calenge@oncfs.gouv.fr} }
 \note{
+
   The computation of the squared Mahalanobis distances inverts the
   variance-covariance matrix of the niche density function (see
   \code{?mahalanobis}).
   It is therefore important that the habitat variables considered
   are not too correlated among each other.  When the habitat variables
   are too correlated, the variance-covariance matrix is singular and
-  cannot be inverted. \cr
+  cannot be inverted.
 
   Note also that it is recommended to scale the variables before the
   computation, so that they all have the same variance, and therefore

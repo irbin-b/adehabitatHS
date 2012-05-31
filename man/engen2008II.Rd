@@ -45,7 +45,7 @@ engen2008I(us, av, nsimra=500)
   according to the classification of Thomas and Taylor, 1990).  However,
   we extended this approach to also include the case where habitat use
   is described by a sample of used site, with one site per unidentified
-  animal (i.e., design I).\cr
+  animal (i.e., design I).
 
   The original approach is the following: first, a normal score
   transformation of each habitat variable is performed: for each
@@ -58,7 +58,7 @@ engen2008I(us, av, nsimra=500)
   variables for the available sites.  Then, the value of the cumulative
   distribution -- estimated from the available sites -- is computed for
   each used site.  Then, the inverse of the standard normal integral is
-  computed for each one.\cr
+  computed for each one.
 
   Engen et al. (2008) suppose the following model describing how habitat
   use results from habitat availability.  Let \deqn{Z_{ij}}{Z_{ij}} be
@@ -84,7 +84,7 @@ engen2008I(us, av, nsimra=500)
   in the habitat used between animals (or a small within-animal
   variation).  The main parameter of concern is here the preference.
   The function \code{engen2008II} allows to estimate these
-  parameters.\cr
+  parameters.
 
   The function \code{engen2008I} extends this model for design I
   studies (a sample of used sites and a sample of available sites,
@@ -96,7 +96,7 @@ engen2008I(us, av, nsimra=500)
   where \deqn{\mu}{mu} is the preference for the habitat variable (0
   indicates a non-preference), and \deqn{V_{ij}}{V_{ij}}
   are normal distributions with means equal to zero and variances equal
-  to \deqn{\sigma^2}{sigma^2}.\cr
+  to \deqn{\sigma^2}{sigma^2}.
   
   Note that the habitat variables may be correlated on the study
   area. In this case, observed preference for a given variable may be
@@ -110,7 +110,7 @@ engen2008I(us, av, nsimra=500)
   algorithm described by Ripley, 1987, p.98).  We then compute the
   standardized values \deqn{P_{ij} = (Z_{ij} - m_{ij})/s_{ij}}{P_{ij} =
   Z_{ij} - m_{ij})/s_{ij}}.  The preference is then computed using these
-  standardized values.\cr
+  standardized values.
   
   Because there may be ties in the distribution of values of habitat
   variables, the results may vary depending on the random order chosen
@@ -118,7 +118,7 @@ engen2008I(us, av, nsimra=500)
   to repeat the function a large number of times, and to use the mean
   values as estimates of the parameters.  This is what the function
   does, and the number of randomization is controlled by the parameter
-  \code{nsimra}.\cr
+  \code{nsimra}.
 
   Note that all these methods rely on the following hypotheses: (i)
   independence between animals, (ii) independence between sites, and

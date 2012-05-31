@@ -49,7 +49,7 @@ void DiagobgComp (int n0, double **w, double *d, int *rang);
 /* Functions from the package adehabitat */
 void multpoco(double **tab, double *poco);
 void aleadistrivec(double *vec, double *no);
-void randksel(int *fac, double *pu, int *nani, int *ni);
+void randksel(double *pu, int *nani, int *ni);
 void rks(int *fac, double *pdsu, int *nani, int *nbani, int *nl);
 void ksel(double *tab, int *fac, double *poidsut, int *nhab, 
 	  int *nani, int *nloctot, double *ut, double *di,
@@ -89,7 +89,7 @@ void engen2008Ir(double *avr, double *usr, int *nliga, int *nligu,
 void engen2008r(double *avr, double *usr, int *nliga, int *nligu, 
 		int *ncol, int *idr, int *nidr, int *nsimr, 
 		double *resr, int *nsimrar);
-void free_ivector(int *v, int nl, int nh);
+void free_ivector(int *v, int nl);
 int invers(double **a, int n, double **b, int m);
 
 
@@ -1089,7 +1089,7 @@ of animals (used for K-select analysis)
 
 ***************************************************** */
 
-void randksel(int *fac, double *pu, int *nani, int *ni)
+void randksel(double *pu, int *nani, int *ni)
 {
     /* Declaration of local variables */
     int i, j, k, l;
@@ -1154,7 +1154,7 @@ void rks(int *fac, double *pdsu, int *nani, int *nbani, int *nl)
     }
     
     /* The function randksel */
-    randksel(fa, pu, nani, ni);
+    randksel(pu, nani, ni);
     
     /* Output */
     for (i=1; i<=*nl; i++) {
@@ -1428,7 +1428,7 @@ void permutksel(double *tab, int *fac, double *poidsut, int *nhab,
     for (k=1; k<=nbperm; k++) {
 	
 	/* One permutes */
-	randksel(fa, pu, nani, ni);
+	randksel(pu, nani, ni);
 	
 	/* One copies the randomized utilization weights in poidsut */
 	for (i=0; i<nl; i++) {
@@ -1678,7 +1678,7 @@ void wml(double **used, double **avail, double *wmla, int na, int nh,
 				     log(avail[i][jb] / avail[i][k])) * vecalea[i];
 		    
 		    /* computes the mean */
-		    moydlr[j] = moydlr[j] + dlr[i][idcol];
+		    moydlr[j] = moydlr[j] + dlr[i][idcol]; 
 		    nadlr[j]++;
 		}
 	    }
@@ -2406,7 +2406,7 @@ int *ivector(int nl, int nh)
    return v-nl;
 }
 
-void free_ivector(int *v, int nl, int nh) { free((char*) (v+nl)); }
+void free_ivector(int *v, int nl) { free((char*) (v+nl)); }
 
 
 
@@ -2591,8 +2591,8 @@ void engen2008r(double *avr, double *usr, int *nliga, int *nligu,
 	    
 	    for (k = 2; k<=nla; k++) {
 		for (l = 1; l<k; l++) {
-		    if (fabs(varR[k]-varR[l]) < tmp) {
-			tmp=fabs(varR[k]-varR[l]);
+		    if (fabs(varR[k-1]-varR[l-1]) < tmp) {
+			tmp=fabs(varR[k-1]-varR[l-1]);
 		    }			    
 		}
 	    }
@@ -3010,8 +3010,8 @@ void engen2008Ir(double *avr, double *usr, int *nliga, int *nligu,
 	    
 	    for (k = 2; k<=nla; k++) {
 		for (l = 1; l<k; l++) {
-		    if (fabs(varR[k]-varR[l]) < tmp) {
-			tmp=fabs(varR[k]-varR[l]);
+		    if (fabs(varR[k-1]-varR[l-1]) < tmp) {
+			tmp=fabs(varR[k-1]-varR[l-1]);
 		    }			    
 		}
 	    }

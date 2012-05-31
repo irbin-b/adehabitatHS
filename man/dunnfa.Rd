@@ -37,7 +37,7 @@ dunnfa(dudi, pr, scannf = TRUE, nf = 2)
   space (e.g. the point defined by the values of environmental variables
   in a pixel of a raster map) and the centroid of the niche (the
   distribution of used resource units) can be used to give a value of
-  eccentricity to this point.\cr
+  eccentricity to this point.
   
   For a given distribution of available resource units, for which a
   measure of Mahalanobis distances is desired, the MADIFA (MAhalanobis
@@ -48,7 +48,7 @@ dunnfa(dudi, pr, scannf = TRUE, nf = 2)
   \code{dunnfa}, as an alternative to the MADIFA (unpublished
   results).  This analysis is closely related to both the ENFA
   (Ecological niche factor analysis, Hirzel et al. 2002) and the
-  MADIFA.\cr
+  MADIFA.
 
   The analysis proposed by James Dunn searches, in the multidimensional
   space defined by environmental variables, synthesis variables which
@@ -58,7 +58,7 @@ dunnfa(dudi, pr, scannf = TRUE, nf = 2)
   (Hirzel et al. 2002).  It is therefore very similar to the ENFA (which
   also maximises the specialization), except that the factorial axes
   returned by this analysis are not required to be *orthogonal to the
-  marginality axis*.\cr
+  marginality axis*.
 
   James Dunn demonstrated that this analysis also partitions the
   Mahalanobis distances into uncorrelated axes, which makes it similar
@@ -66,7 +66,7 @@ dunnfa(dudi, pr, scannf = TRUE, nf = 2)
   squared Mahalanobis distances on the first axes, whereas the DUNNFA
   maximises the specialization on the first axes).  Therefore, as for
   the MADIFA, the DUNNFA can be used to build reduced rank habitat
-  suitability map.\cr
+  suitability map.
 
   Note that although this analysis could theoretically be used with all
   kinds of variables, it it currently implemented only for numeric

@@ -10,7 +10,7 @@
 \format{
   This data set is a list of two objects:
   \code{locs} is a \code{SpatialPointsDataFrame} containing the
-  relocations of 15 squirrels\cr
+  relocations of 15 squirrels
   
   \code{map} is an object of class \code{SpatialPolygonsDataFrame}
     containing the habitat composition of the area. The habitat types

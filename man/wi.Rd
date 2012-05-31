@@ -60,6 +60,7 @@ widesIII(u, a, avknown = TRUE, alpha = 0.05)
     \code{plot}} 
 }
 \details{
+
   \code{widesI} may be used to explore resource selection by
   animals, when designs I are involved (habitat use and availability are
   measured at the population level - animals are not identified).  The
@@ -68,19 +69,19 @@ widesIII(u, a, avknown = TRUE, alpha = 0.05)
   Manly selectivity measure (selection ratio = used/available) is
   computed, the preference / avoidance is tested for
   each habitat, and the differences between selection ratios are computed
-  and tested. \cr
+  and tested. 
 
   \code{widesII} computes the selection ratios with design II
   data (same availability for all animals, but use measured for each one).
   Tests of identical habitat use for all animals, and of habitat
-  selection are also provided.\cr
+  selection are also provided.
 
   \code{widesIII} computes the
   selection ratios for design III data (when the use and the
   availability are measured for each animal - 
   see examples on the wild boar below).  Habitat selection is tested
   using a Chi-square for each animal, and the overall habitat selection
-  is also tested.\cr
+  is also tested.
 
   Note that all these methods rely on the following hypotheses: (i)
   independence between animals, and (ii) all animals are selecting
@@ -88,6 +89,7 @@ widesIII(u, a, avknown = TRUE, alpha = 0.05)
   these kinds of studies: no territoriality, all animals having equal
   access to all available resource units, etc., see Manly et al. 2002
   for further details).
+
 }
 \value{
   \code{widesI} returns a list of the class \code{wiI}.  \code{widesII}

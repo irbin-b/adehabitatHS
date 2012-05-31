@@ -33,13 +33,13 @@ gnesfa(dudi, Focus, Reference,
   of the resource units to the species (if not specified, these weights
   are considered to be uniform).  Another distribution of weights Dp
   describes the use of the resource units by the species (for example
-  the proportion of relocations in each pixel of a raster map).\cr
+  the proportion of relocations in each pixel of a raster map).
 
   Each environmental variable defines a dimension in a multidimensional
   space, the ecological space. The N resource units define a cloud of
   points in this space.  Each point is associated to two weights.
   The GNESFA finds, in the ecological space, the directions on which
-  these two distributions of weights are the most different.\cr
+  these two distributions of weights are the most different.
   
   The GNESFA relies on a choice of the analyst, followed by three
   steps.  Before all, the analyst has to choose one distribution of
@@ -50,16 +50,14 @@ gnesfa(dudi, Focus, Reference,
   distorted, so that the Reference distribution takes a standard
   spherical shape;  (iv) a non centred principal component analysis of
   the Focus distribution allows to identify the directions of the
-  ecological space where the two distributions are the most different.\cr
+  ecological space where the two distributions are the most different.
 
   Depending on the distribution chosen as Reference, this algorithm
   returns results with different meanings (see examples).  This
   algorithm is closely related to several common analyses of habitat
   selection/niche (ENFA, MADIFA, Mahalanobis distances, selection
   ratios, etc.).  The examples below give some examples of the
-  mathematical properties of this algorithm.\cr
-
-  
+  mathematical properties of this algorithm.  
   
   Note that the function takes a parameter named \code{centering}.
   Indeed, two types of centering can be performed prior to the GNESFA.

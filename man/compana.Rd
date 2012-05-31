@@ -32,7 +32,7 @@ compana(used, avail, test = c("randomisation", "parametric"),
   The compositional analysis of habitat use has been recommended by
   Aebischer et al. (1993) for the analysis of habitat selection by
   several animals, when the resources are defined by several categories
-  (e.g. vegetation types).\cr
+  (e.g. vegetation types).
 
   This analysis is carried out in two steps: first the significance of
   habitat selection is tested (using a Wilks lambda). Then, a ranking
@@ -43,12 +43,12 @@ compana(used, avail, test = c("randomisation", "parametric"),
   of the home range within the study area, and (ii) selection of the
   relocations within the home range.  The first level is termed
   second-order habitat selection on Johnson's scale (1980), and the
-  second one, third-order habitat selection.\cr
+  second one, third-order habitat selection.
 
   When zero values are found
   in the matrix of used habitats, they are replaced by a small value (by
   default, 0.01), according to the recommendations of Aebischer et al.
-  (1993).\cr
+  (1993).
 
   When zero values are found in the matrix of available habitats, the
   function \code{compana} uses the procedure termed
@@ -57,7 +57,7 @@ compana(used, avail, test = c("randomisation", "parametric"),
   values can be found in the matrix of available habitats when the
   third-order habitat selection is under focus. In this case, it may
   occur that some habitat types are available to some animals and not to
-  the others.\cr
+  the others.
 
   Note that this method rely on the following hypotheses: (i)
   independence between animals, and (ii) all animals are selecting

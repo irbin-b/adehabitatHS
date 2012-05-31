@@ -34,7 +34,7 @@ canomi(dudiX, Y, scannf = TRUE, nf = 2)
   animals of the study.  Each resource unit is described by P
   environmental variables.  Therefore, the N resource units define a
   cloud of N points in the P-dimensionnal space defined by the P
-  variables. We call this space "ecological space".\cr
+  variables. We call this space "ecological space".
 
   Moreover, the use of the N resource units is known (or sampled) for
   a sample of K animals (e.g., using radio-tracking).  These utilization
@@ -43,7 +43,7 @@ canomi(dudiX, Y, scannf = TRUE, nf = 2)
   the "niche" of the animal.  The vector connecting the centroid (mean)
   of the available RUs to the centroid of the RUs used by this animal is
   named "marginality vector" (and its squared length is named
-  "marginality" or "outlying mean index").\cr
+  "marginality" or "outlying mean index").
 
   The \code{canomi} first distorts the ecological space so that the
   available resource units take a standard spherical shape (by first

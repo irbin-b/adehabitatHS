@@ -87,10 +87,10 @@ prepksel(sa, hr, locs)
   the average marginality is greatest. It is a synthesis of variables
   which contributes the most to the habitat selection. As with principal
   component analysis, the biological significance of the factorial axes is
-  deduced from the loading of variables.\cr
+  deduced from the loading of variables.
 
   \code{prepksel} allows to prepare the data for the kselect analysis
-  (see examples).\cr
+  (see examples).
   
   \code{plot.kselect} returns a summary of the analysis: it displays (i)
   a graph of the correlations between the principal axes of the PCA of
@@ -105,7 +105,7 @@ prepksel(sa, hr, locs)
   conditions); (v) the projection of the resource units available to
   each animal on the first factorial plane and (vi) the coordinates of
   the recentred marginality vectors (i.e. recentred so that they have a
-  common origin) on the first factorial plane.\cr
+  common origin) on the first factorial plane.
 
   \code{kplot.kselect} returns one graph per animal showing the
   projections of the available resource units on the factorial plane, as

@@ -18,18 +18,19 @@
   \item{\dots}{further arguments passed to or from other methods}
 }
 \details{
-The predictions are based on the position of the niche defined by the
-ENFA within the multidimensional space of environmental variables.  The
-ENFA produces row coordinates for each pixel, which are used with the
-function \code{mahalanobis}.  For each pixel, this function computes the
-Mahalanobis distances from the barycentre of the niche.\cr
 
-Actually, the function \code{predict.enfa} is identical to the function
-\code{mahasuhab}, except that the habitat suitability map is computed
-using the axes of the ENFA, instead of the raw data.\cr
+  The predictions are based on the position of the niche defined by the
+  ENFA within the multidimensional space of environmental variables.  The
+  ENFA produces row coordinates for each pixel, which are used with the
+  function \code{mahalanobis}.  For each pixel, this function computes the
+  Mahalanobis distances from the barycentre of the niche.
+  
+  Actually, the function \code{predict.enfa} is identical to the function
+  \code{mahasuhab}, except that the habitat suitability map is computed
+  using the axes of the ENFA, instead of the raw data.
 
-Note that the MADIFA allows a more consistent factorial decomposition of
-the Mahalanobis distances.
+  Note that the MADIFA allows a more consistent factorial decomposition of
+  the Mahalanobis distances.
 }
 \value{
 Returns a raster map of class \code{SpatialPixelsDataFrame}.

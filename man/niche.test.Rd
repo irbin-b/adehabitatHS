@@ -24,12 +24,12 @@ niche.test(x, pts, nrep = 999, o.include = TRUE, \dots)
   conditions to the average used habitat conditions in the ecological
   space defined by the habitat variables), and the tolerance (inertia of
   the niche in the ecological space, i.e. the sum over all variables of
-  the variance of used pixels). \cr
+  the variance of used pixels). 
   
   At each step of the randomisation procedure, 
   the test randomly allocates the n points in the pixels of the map.
   The marginality and the tolerance are then recomputed on this
-  randomised data set.\cr
+  randomised data set.
   
   Actual values are compared to random values with the help of the
   function \code{biv.test}.
