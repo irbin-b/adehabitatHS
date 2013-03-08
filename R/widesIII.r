@@ -37,7 +37,7 @@
     wi<-uip/apply(pij*upj,2,sum)
 
     ## Output
-    sorties$used.prop <- t(t(uij)/uip)
+    sorties$used.prop <- t(apply(uij,1,function(x) x/sum(x)))
     sorties$avail.prop <- pij
     sorties$wij<-wij
     sorties$wi<-wi

@@ -1,4 +1,4 @@
-fa339c613f78ae0f0386b64162231d31 *DESCRIPTION
+f689159b6662e51530eac09f2dfda3a2 *DESCRIPTION
 5c01e6d7249ed8b0185010887f48b5eb *NAMESPACE
 dd05b3c114635a6f02b318340d71b695 *R/biv.plot.r
 23b051bfe1ed82b0f4cd1a85a41b3996 *R/biv.test.r
@@ -36,7 +36,7 @@ e319c22a928ecdd203a3135799a66fe4 *R/randtest.enfa.r
 f64702761f2d0106bd43c926bdcd4310 *R/scatterniche.r
 fa25559c85e4533ccd8c95b6bb486d74 *R/widesI.r
 7a5f76737421c5247a1508aab283b042 *R/widesII.r
-35ddbb981141e78dff1ca8f7d053c75f *R/widesIII.r
+48f57791ccd408448614922559019421 *R/widesIII.r
 5113cc1c40e1c962d38f7d0761e6ee5f *build/vignette.rds
 4b4f5e4bc4ce1fa70acbc3090d99911d *data/bauges.rda
 cad5be49313ba641b086ab7ae3ae4213 *data/bighorn.rda
