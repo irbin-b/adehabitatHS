@@ -2489,7 +2489,7 @@ We rasterize these polygons
 
 <<label=plohr,echo=FALSE,fig=FALSE,eval=FALSE>>=
 hr <- do.call("data.frame", lapply(1:nrow(pcc), function(i) {
-    overlay(maps,pcc[i,])
+    over(maps,geometry(pcc[i,]))
 }))
 names(hr) <- slot(pcc, "data")[,1]
 coordinates(hr) <- coordinates(maps)

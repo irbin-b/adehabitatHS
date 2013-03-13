@@ -35,18 +35,18 @@ prepksel <- function(sa, hr, locs)
     df <- do.call("rbind", lapply(1:ncol(hr), function(i) {
         dv <- hr[,i]
         dv <- dv[!is.na(slot(dv,"data")[,1]),]
-        dat[overlay(sa, dv),]
+        dat[over(dv, geometry(sa)),]
     }))
     loct <- slot(locs, "data")
     locdf <- unlist(lapply(1:ncol(hr), function(i) {
         dv <- hr[,i]
         dv <- dv[!is.na(slot(dv,"data")[,1]),]
-        loct[overlay(locs, dv),i]
+        loct[over(dv, geometry(locs)),i]
     }))
     fac <- unlist(lapply(1:ncol(hr), function(i) {
         dv <- hr[,i]
         dv <- dv[!is.na(slot(dv,"data")[,1]),]
-        rep(names(loct)[i], length(overlay(locs, dv)))
+        rep(names(loct)[i], length(over(dv, geometry(locs))))
     }))
     return(list(tab=df, weight=locdf, factor=factor(fac)))
 }

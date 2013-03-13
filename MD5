@@ -1,4 +1,4 @@
-4bc6f86b180c770a6b6b4ca491059234 *DESCRIPTION
+150feff0e3a11204a0d61cb8f9420b9e *DESCRIPTION
 85b795897057a7d8beadf839cbfa75d9 *NAMESPACE
 dd05b3c114635a6f02b318340d71b695 *R/biv.plot.r
 23b051bfe1ed82b0f4cd1a85a41b3996 *R/biv.test.r
@@ -21,7 +21,7 @@ c06d9722e778afcd6863b4aff7ed1db5 *R/niche.test.r
 e76c972462dd700faa736a5ffc3431cf *R/plot.kselect.r
 f889a861f5bd959ba2bee73bcd9c2daf *R/plot.wi.r
 9f0afc42f4c5145909e132b51abd93ae *R/predict.enfa.r
-102c3d332da07cf4327fca7c35c56ea7 *R/prepksel.r
+b078e65d788f3c853ce1c3efaa990006 *R/prepksel.r
 d4e6cbec5fd6bc3f18e738e3ba9a9fa4 *R/print.compana.r
 e18a28f649a214ba4c6e543c7e7bcff4 *R/print.enfa.r
 5f06003aa734f319f34ac405e9c065c7 *R/print.kselect.r
@@ -47,8 +47,8 @@ c50ee6159479c3d888a021653dec0ca3 *data/puech.rda
 c3d93716db14dd7a41142ddd352d169d *data/squirreloc.rda
 a2aaf6a84f3ea07c81f447a53f1c2469 *data/vanoise.rda
 928dfc19b52b0fdfe9b135e2e4358bd5 *inst/CITATION
-e7fda2695a9b53e5144eead97f0854f7 *inst/doc/adehabitatHS.Rnw
-392bd42e89f3ab4fd615afda20808350 *inst/doc/adehabitatHS.pdf
+2b8dab95b342296a6c1998ab030c9dd3 *inst/doc/adehabitatHS.Rnw
+21ff3ebb8b6392b5ee0539b8e810830b *inst/doc/adehabitatHS.pdf
 deea1daac244857e8ff26a0e226b7cfa *inst/doc/exva.png
 09ca2121f40ea7a300e8cb70c6be367f *man/adehabitatHS-internal.Rd
 87ffb5ce9dec115259a1f7ead322a6b4 *man/bauges.Rd
@@ -72,7 +72,7 @@ abc3b6b9003d5a6a371f9cc65894c347 *man/mahasuhab.Rd
 9cab86f378f66ec96a108f389390e133 *man/predict.enfa.Rd
 4efa367a81a5ce36d3dda88883e6077e *man/puech.Rd
 4219713f0c5a6af11c258c43af9de7d4 *man/puechdesIII.Rd
-ac041432576ba0ffff729540b98d2b05 *man/rand.kselect.Rd
+d4e0f89a5f8e6fba6742ed7d987a0a20 *man/rand.kselect.Rd
 38f745d0cbc43bb8dc41f39f61b8ed68 *man/randtest.enfa.Rd
 088d19dafb47ec48d4376059311d7690 *man/scatter.enfa.Rd
 513de6f8bc36e42499d36f8a2f360e86 *man/scatterniche.Rd
