@@ -1,5 +1,5 @@
-150feff0e3a11204a0d61cb8f9420b9e *DESCRIPTION
-85b795897057a7d8beadf839cbfa75d9 *NAMESPACE
+fa339c613f78ae0f0386b64162231d31 *DESCRIPTION
+5c01e6d7249ed8b0185010887f48b5eb *NAMESPACE
 dd05b3c114635a6f02b318340d71b695 *R/biv.plot.r
 23b051bfe1ed82b0f4cd1a85a41b3996 *R/biv.test.r
 aec9fa6e2b6b89f41620027f74a2610c *R/canomi.R
@@ -37,6 +37,7 @@ f64702761f2d0106bd43c926bdcd4310 *R/scatterniche.r
 fa25559c85e4533ccd8c95b6bb486d74 *R/widesI.r
 7a5f76737421c5247a1508aab283b042 *R/widesII.r
 35ddbb981141e78dff1ca8f7d053c75f *R/widesIII.r
+5113cc1c40e1c962d38f7d0761e6ee5f *build/vignette.rds
 4b4f5e4bc4ce1fa70acbc3090d99911d *data/bauges.rda
 cad5be49313ba641b086ab7ae3ae4213 *data/bighorn.rda
 71bb9f1fd39c3932a771b7db70ba4c97 *data/chamois.rda
@@ -47,9 +48,9 @@ c50ee6159479c3d888a021653dec0ca3 *data/puech.rda
 c3d93716db14dd7a41142ddd352d169d *data/squirreloc.rda
 a2aaf6a84f3ea07c81f447a53f1c2469 *data/vanoise.rda
 928dfc19b52b0fdfe9b135e2e4358bd5 *inst/CITATION
-2b8dab95b342296a6c1998ab030c9dd3 *inst/doc/adehabitatHS.Rnw
-21ff3ebb8b6392b5ee0539b8e810830b *inst/doc/adehabitatHS.pdf
-deea1daac244857e8ff26a0e226b7cfa *inst/doc/exva.png
+e8067d030635dabaf06cb802837619a2 *inst/doc/adehabitatHS.R
+214f19bb0b815fd33876784e8450c9a9 *inst/doc/adehabitatHS.Rnw
+5f450369be799ccec7570ed2d166ec66 *inst/doc/adehabitatHS.pdf
 09ca2121f40ea7a300e8cb70c6be367f *man/adehabitatHS-internal.Rd
 87ffb5ce9dec115259a1f7ead322a6b4 *man/bauges.Rd
 8b0ffa03a998772022b886f614a59423 *man/bighorn.Rd
@@ -81,3 +82,5 @@ fcef38e1d0dd145caef533c0b6e518ea *man/squirreloc.Rd
 b173e92a8d5633f3b12f2e2d368566e7 *man/vanoise.Rd
 718a0b8b4acf2b5088aedf1f6e48f7c2 *man/wi.Rd
 411f3e328d9e303adbe7e46c1507534e *src/tests.c
+214f19bb0b815fd33876784e8450c9a9 *vignettes/adehabitatHS.Rnw
+deea1daac244857e8ff26a0e226b7cfa *vignettes/exva.png
