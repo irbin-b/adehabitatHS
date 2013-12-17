@@ -112,7 +112,9 @@ int invers(double **a, int n, double **b, int m);
 double alea (void)
 {
     double w;
-    w = ((double) rand())/ (double)RAND_MAX;
+    GetRNGstate();
+    w = unif_rand();
+    PutRNGstate();
     return (w);
 }
 
@@ -460,7 +462,7 @@ void getpermutation (int *numero, int repet)
  * two calls returns different results (seed=clock+repet)
  ------------------------*/
 {
-    int i, n, seed;
+    int i, n;
     int *alea;
     
     n=numero[0];
@@ -476,11 +478,10 @@ void getpermutation (int *numero, int repet)
     /*-------------
      * affects random numbers in alea
      ----------------*/
-    seed = clock();
-    seed = seed + repet;
-    srand(seed);
     for (i=1;i<=n;i++) {
-	alea[i]=rand();
+	GetRNGstate();
+	alea[i] = unif_rand();
+	PutRNGstate();
     }
     
     trirapideint (alea , numero, 1, n);
@@ -1506,7 +1507,7 @@ void calcsim(double *pix, double **pts, double *rg,
     for (i=1; i<=no; i++) {
 	nib = 0;
 	for (j=1; j<=nv; j++) {
-	    temp[j] = abs(pix[j]-pts[i][j])/rg[j];
+	    temp[j] = fabs(pix[j]-pts[i][j])/rg[j];
 	    nib = nib + temp[j];
 	}
 	vecqual[i] = 1 - (1/((double) nv))*nib;

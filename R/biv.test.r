@@ -87,8 +87,8 @@
     ## an eventual 2D smoothing
     if(kernel) {
         if (missing(h))
-            h <- c(bandwidth.nrd(x), bandwidth.nrd(y))
-        dens <- kde2d(x, y, h = h, lims = c(xlim, ylim))
+            h <- c(MASS::bandwidth.nrd(x), MASS::bandwidth.nrd(y))
+        dens <- MASS::kde2d(x, y, h = h, lims = c(xlim, ylim))
         contour(dens, drawlabels = FALSE, col = col, add = TRUE)
     }
 
@@ -183,4 +183,3 @@
         sub <- "Biplot and\n univariate\ntests"
     mtext(text = paste(sub), adj = 0.5, line = -8, cex = 1.5)
 }
-
