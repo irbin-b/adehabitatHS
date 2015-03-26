@@ -1,7 +1,7 @@
-9fc6f60b3e19643a52b2347dbcd08797 *DESCRIPTION
-5c01e6d7249ed8b0185010887f48b5eb *NAMESPACE
-405b8f0acd2e29e436126bb1181cc0eb *R/biv.plot.r
-5b59966d97793aa7e2d3fd6109c9bcf4 *R/biv.test.r
+713da4a6f9e27c97a1f09c6ee857252a *DESCRIPTION
+21e8ca426b8708352d6c0b36049052fc *NAMESPACE
+963f10e8319f1563513d73af59b632fa *R/biv.plot.r
+c606fcd9dbb95d3175a925649df4d754 *R/biv.test.r
 aec9fa6e2b6b89f41620027f74a2610c *R/canomi.R
 0a3de3484ddd958cc5899b4e4ce74162 *R/compana.r
 6bb7ec63672da80a60928ab423d89c34 *R/domain.r
@@ -17,7 +17,7 @@ a9c44125ea2e9ae8068e7713d3a35f37 *R/gnesfa.r
 30d67422cb4bda358fcfe6446dae45f0 *R/kselect.r
 95fa57e66208520b790e74d768a5bcf0 *R/madifa.r
 97e2d109e6809a47661a1b865cbeceaa *R/mahasuhab.r
-c06d9722e778afcd6863b4aff7ed1db5 *R/niche.test.r
+5bfe2b5651bcc8d14532a3c1802d2c5f *R/niche.test.r
 e76c972462dd700faa736a5ffc3431cf *R/plot.kselect.r
 f889a861f5bd959ba2bee73bcd9c2daf *R/plot.wi.r
 9f0afc42f4c5145909e132b51abd93ae *R/predict.enfa.r
@@ -37,7 +37,7 @@ f64702761f2d0106bd43c926bdcd4310 *R/scatterniche.r
 fa25559c85e4533ccd8c95b6bb486d74 *R/widesI.r
 7a5f76737421c5247a1508aab283b042 *R/widesII.r
 48f57791ccd408448614922559019421 *R/widesIII.r
-af99b603c2f194e8219529b0027909d0 *build/vignette.rds
+8d8b4d0f3487bf5b7a276981bb425700 *build/vignette.rds
 4b4f5e4bc4ce1fa70acbc3090d99911d *data/bauges.rda
 cad5be49313ba641b086ab7ae3ae4213 *data/bighorn.rda
 71bb9f1fd39c3932a771b7db70ba4c97 *data/chamois.rda
