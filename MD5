@@ -1,5 +1,5 @@
-713da4a6f9e27c97a1f09c6ee857252a *DESCRIPTION
-21e8ca426b8708352d6c0b36049052fc *NAMESPACE
+19e4d991a932d51c60ee557f907ad539 *DESCRIPTION
+58c6f417a24d68b79f2e4ee1b5253e23 *NAMESPACE
 963f10e8319f1563513d73af59b632fa *R/biv.plot.r
 c606fcd9dbb95d3175a925649df4d754 *R/biv.test.r
 aec9fa6e2b6b89f41620027f74a2610c *R/canomi.R
@@ -81,6 +81,6 @@ d4e0f89a5f8e6fba6742ed7d987a0a20 *man/rand.kselect.Rd
 fcef38e1d0dd145caef533c0b6e518ea *man/squirreloc.Rd
 b173e92a8d5633f3b12f2e2d368566e7 *man/vanoise.Rd
 718a0b8b4acf2b5088aedf1f6e48f7c2 *man/wi.Rd
-1c89f37c5dd241dd192c70cd47ae2beb *src/tests.c
+019411e89a8549abe3292a0e31a49610 *src/tests.c
 214f19bb0b815fd33876784e8450c9a9 *vignettes/adehabitatHS.Rnw
 deea1daac244857e8ff26a0e226b7cfa *vignettes/exva.png
