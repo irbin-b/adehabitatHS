@@ -1,4 +1,4 @@
-937eea3dc5a62a2d6eaac169b1ff8476 *DESCRIPTION
+62426c923f630306f90614e5add0e4d6 *DESCRIPTION
 4b236268e96fe528283dcf3061e0c35d *NAMESPACE
 963f10e8319f1563513d73af59b632fa *R/biv.plot.r
 c606fcd9dbb95d3175a925649df4d754 *R/biv.test.r
@@ -47,7 +47,7 @@ c50ee6159479c3d888a021653dec0ca3 *data/puech.rda
 c3d93716db14dd7a41142ddd352d169d *data/squirreloc.rda
 a2aaf6a84f3ea07c81f447a53f1c2469 *data/vanoise.rda
 928dfc19b52b0fdfe9b135e2e4358bd5 *inst/CITATION
-252e01bf19afedf9c2d9c455eb3d6397 *inst/doc/adehabitatHS.pdf
+ef8b8d3ec70256b6abe2f2a36e93e9b5 *inst/doc/adehabitatHS.pdf
 09ca2121f40ea7a300e8cb70c6be367f *man/adehabitatHS-internal.Rd
 87ffb5ce9dec115259a1f7ead322a6b4 *man/bauges.Rd
 8b0ffa03a998772022b886f614a59423 *man/bighorn.Rd
@@ -59,7 +59,7 @@ daf6134e4d14a95d9a9e45163295eed7 *man/domain.Rd
 9222d7531b62c5efb507ec8db5e3e106 *man/dunnfa.Rd
 f13825eb40c1644e3d6ec0e6583e5995 *man/eisera.Rd
 b32286ebac1674114d50aac4ae8a8823 *man/enfa.Rd
-f305ddfdaf64db99e555b2ca8e02c1e0 *man/engen2008II.Rd
+90a2896905605d440c58edcf96f59a07 *man/engen2008II.Rd
 7383e35c740f71624481a610a5fe7cc0 *man/gnesfa.Rd
 8e623f8701569b7a60a8836f4bac38dd *man/histniche.Rd
 cc5e387ed565c0fe23b9571511bb11f2 *man/kselect.Rd
