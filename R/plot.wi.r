@@ -7,7 +7,7 @@
     on.exit(par(opar))
     if (!inherits(x, "wi"))
       stop("x should be of class wi")
-    eb<-ifelse(errbar=="SE", 1, abs(qnorm(x$alpha/length(x$wi))) )
+    eb<-ifelse(errbar=="SE", 1, abs(qnorm(x$alpha/(2 * length(x$wi)))) )
 
     ## Should the selection ratios be ordered?
     if (noorder)
